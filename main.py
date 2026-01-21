@@ -24,7 +24,7 @@ client: ClientConfig = {
 config: RESTAPIConfig = {
     "client": client,
     "resource_defaults": {
-        "write_disposition": "append",
+        "write_disposition": "replace",
         "endpoint": {
             "params": {
                 "format": "json",
